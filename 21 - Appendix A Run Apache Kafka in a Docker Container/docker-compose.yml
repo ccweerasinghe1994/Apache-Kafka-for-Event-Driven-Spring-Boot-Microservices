@@ -1,0 +1,6 @@
+services:
+  kafka-1:
+    image: bitnami/kafka:latest
+    container_name: kafka-1
+    ports:
+      - 9092:9092
